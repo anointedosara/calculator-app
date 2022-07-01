@@ -148,7 +148,6 @@ body {
     color: var(--white);
     overflow: auto;
     width: 100%;
-    padding-bottom: 20px;
 }
 
 .div6::-webkit-scrollbar {
@@ -245,12 +244,10 @@ body {
     box-shadow: 0px 3.5px 0px 0px var(--key-shadow);
 }
 
-#butn {
-    padding-left: 25px;
-}
-
 #butn span {
     opacity: 0;
+    width: max-content;
+    margin-left: -15px;
 }
 
 .btn:last-child {
@@ -366,10 +363,10 @@ body {
     }
     .screen {
         width: 100%;
-        padding: 40px 25px;
-        height: 110px;
+        padding: 30px 25px;
+        height: 90px;
         background: var(--screen);
-        margin-top: 40px;
+        margin-top: 50px;
         border-radius: 8px;
         margin-bottom: 20px;
         margin-bottom: 30px;
@@ -392,10 +389,10 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 15px;
+        width: 100%;
     }
     .div8 button {
         background: var(--orange);
-        font-size: 35px;
         transition: 0.5s all ease;
         font-weight: 700;
         color: var(--grayish-blue);
@@ -409,7 +406,7 @@ body {
         box-shadow: 0px 4px 0px 0px var(--orange-shadow);
     }
     .delete {
-        font-size: 22px !important;
+        font-size: 20px !important;
         background: var(--key) !important;
         color: var(--white-col) !important;
         transition: 0.5s all ease !important;
