@@ -23,8 +23,8 @@ ball1.addEventListener("click", () => {
         root.style.setProperty("--orange-hover", "")
         root.style.setProperty("--key-hover", "hsl(185, 50%, 50%)")
         root.style.setProperty("--red-hover", "hsl(25, 100%, 65%)")
-        document.querySelector(".ball1").style.opacity = 0
-        document.querySelector(".ball2").style.opacity = 1
+        document.querySelector(".ball1").style.display = "none"
+        document.querySelector(".ball2").style.display = "block"
     }
 })
 
@@ -47,9 +47,9 @@ if (lightMode != true) {
         root.style.setProperty("--orange-hover", "hsl(268, 45%, 49%")
         root.style.setProperty("--key-hover", "hsl(281, 50%, 43%)")
         root.style.setProperty("--red-hover", "hsl(175, 58%, 72%)")
-        document.querySelector(".ball1").style.opacity = 0
-        document.querySelector(".ball2").style.opacity = 0
-        document.querySelector(".ball3").style.opacity = 1
+        document.querySelector(".ball1").style.display = "none"
+        document.querySelector(".ball2").style.display = "none"
+        document.querySelector(".ball3").style.display = "block"
     })
 }
 
@@ -70,9 +70,9 @@ ball3.addEventListener("click", () => {
         root.style.setProperty("--orange-hover", "")
         root.style.setProperty("--key-hover", "")
         root.style.setProperty("--red-hover", "")
-        document.querySelector(".ball1").style.opacity = 1
-        document.querySelector(".ball2").style.opacity = 0
-        document.querySelector(".ball3").style.opacity = 0
+        document.querySelector(".ball1").style.display = "block"
+        document.querySelector(".ball2").style.display = "none"
+        document.querySelector(".ball3").style.display = "none"
     }
 })
 

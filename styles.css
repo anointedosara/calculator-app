@@ -95,18 +95,17 @@ body {
 }
 
 .ball1 {
-    opacity: 1;
-    transition: 0.5s all ease;
+    display: block;
 }
 
 .ball2 {
-    opacity: 0;
-    transition: 0.5s all ease;
+    display: block;
+    margin-left: 17px;
 }
 
 .ball3 {
-    opacity: 0;
-    transition: 0.5s all ease;
+    display: block;
+    margin-left: 34px;
 }
 
 .div5 div {
@@ -344,15 +343,6 @@ body {
         display: flex;
         transition: 0.5s all ease;
         justify-content: space-between;
-    }
-    .ball1 {
-        opacity: 1;
-    }
-    .ball2 {
-        opacity: 0;
-    }
-    .ball3 {
-        opacity: 0;
     }
     .div5 div {
         padding: 9px;
